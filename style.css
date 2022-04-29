@@ -5,8 +5,8 @@
 }
 
 :root{
-    --tenne-tawny: #d54108;
-    --tenne-tawn-dark: #b54507;
+    --cloud: #87ceeb;
+    --dark-cloud: #00008b;
 }
 
 body {
@@ -67,21 +67,21 @@ container {
     font-size: 1.1rem;
     font-family: inherit;
     outline: 0;
-    border: 1px solid var(--tenne-tawny);
-    color: var(--tenne-tawny);
+    border: 1px solid var(--cloud);
+    color: var(--dark-cloud);
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
 
 .search-control::placeholder {
-    color: var(--tenne-tawny);
+    color: var(--cloud);
 }
 
 .search-btn {
     width: 55px;
     height: 55px;
     font-size: 1.8rem;
-    background: var(--tenne-tawny);
+    background: var(--cloud);
     color: #fff;
     border: none;
     border-top-right-radius: 2rem;
@@ -90,7 +90,7 @@ container {
 }
 
 .search-btn:hover {
-    background: var(--tenne-tawn-dark);
+    background: var(--dark-cloud);
 }
 
 .meal-result {
@@ -104,7 +104,7 @@ container {
 .meal-item {
     border-radius: 1rem;
     overflow: hidden;
-    boxshadow: 0 4px 21px -12px rgba(0,0,0,0.79);
+    box-shadow: 0 4px 21px -12px rgba(0,0,0,0.79);
     margin: 2rem 0;
 }
 
@@ -124,7 +124,7 @@ container {
 .recipe-btn {
     text-decoration: none;
     color: #fff;
-    background: var(--tenne-tawn-dark);
+    background: var(--dark-cloud);
     font-weight: 500;
     font-size: 1.1rem;
     padding: 0.75rem 0;
@@ -136,7 +136,7 @@ container {
 }
 
 .recipe-btn:hover {
-    background: var(--tenne-tawn-dark);
+    background: var(--dark-cloud);
 }
 
 .meal-details {
@@ -145,7 +145,7 @@ container {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    background: var(--tenne-tawn-dark);
+    background: var(--dark-cloud);
     border: 1rem;
     width: 90px;
     height: 90px;
@@ -202,7 +202,7 @@ container {
 .recipe-category {
     background: #fff;
     font-weight: 600;
-    color: var(--tenne-tawn);
+    color: var(--cloud);
     display: inline-block;
     padding: 0.2rem 0.5rem;
     border-radius: 0.3rem;
@@ -238,7 +238,7 @@ container {
 /* */
 .notFound {
     grid-template-columns: 1fr!important;
-    color: var(--tenne-tawny);
+    color: var(--cloud);
     font-size: 1.8rem;
     font-weight: 600;
     width: 100%;
